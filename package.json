@@ -13,9 +13,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --collect-coverage --colors --ci",
+    "test": "react-scripts test --coverage --ci && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "eject": "react-scripts eject",
-    "coveralls": "react-scripts test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
