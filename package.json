@@ -1,6 +1,6 @@
 {
   "name": "vision-board",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -15,8 +15,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --collect-coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "coveralls": "react-scripts test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "eslintConfig": {
     "extends": "react-app"
