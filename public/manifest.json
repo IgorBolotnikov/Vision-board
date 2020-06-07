@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Vision board",
+  "name": "Fully interactive vision board",
   "icons": [
     {
       "src": "favicon.ico",
