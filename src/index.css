@@ -22,4 +22,15 @@ code {
   background-color: var(--board-color);
   width: calc(100vw - var(--board-margin) * 2);
   height: calc(100vh - var(--board-margin) * 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-hint {
+  color: var(--board-hint);
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 100px;
+  text-align: center;
 }
