@@ -1,3 +1,3 @@
-var MainMenu = require('./mainMenu');
+import MainMenu from './mainMenu';
 
 module.exports = MainMenu;
