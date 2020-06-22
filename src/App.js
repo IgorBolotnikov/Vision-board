@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Menu from './Components/main_menu';
+import Menu from './Components/MainMenu';
+import ContextMenu from './Components/ContextMenu'
 
 import './index.css';
 
