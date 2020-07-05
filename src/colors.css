@@ -1,9 +1,10 @@
 * {
-  --main-background: #625750;
-  --board-hint: #96897f;
-  --board-color: #c6bcb6;
-  --menu-background: #e0e2e4;
-  --menu-active-color: #d0d2d4;
-  --text-color: #444444;
-  --separator-color: #bbbbbb;
+	--main-background: #625750;
+	--board-hint: #96897f;
+	--board-color: #c6bcb6;
+	--menu-background: #e0e2e4;
+	--menu-active-color: #d0d2d4;
+	--text-color: #444444;
+	--separator-color: #bbbbbb;
+	--card-color: #fff7b8;
 }

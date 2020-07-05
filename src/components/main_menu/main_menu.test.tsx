@@ -1,13 +1,13 @@
+import { fireEvent, render } from '@testing-library/react';
 import React from 'react';
-import { render, fireEvent } from '@testing-library/react';
 import { MainMenu } from './main_menu';
 
 test('Render main menu', () => {
-  const { getByText } = render(<MainMenu />,);
+  const {getByText} = render(<MainMenu/>,);
 
-  const menuHeader = getByText("Menu");
-  const openToggler = getByText("→");
-  const closeToggler = getByText("←");
+  const menuHeader = getByText('Menu');
+  const openToggler = getByText('→');
+  const closeToggler = getByText('←');
 
   expect(menuHeader).toBeInTheDocument();
   expect(openToggler).toBeInTheDocument();
