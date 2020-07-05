@@ -31,8 +31,8 @@ module.exports = {
   coveragePathIgnorePatterns: [
     "<rootDir>/build/",
     "<rootDir>/node_modules/",
-    "<rootDir>/src/index.js",
-    "<rootDir>/src/serviceWorker.js",
+    "<rootDir>/src/index.tsx",
+    "<rootDir>/src/serviceWorker.tsx",
   ],
 
   // A list of reporter names that Jest uses when writing coverage reports

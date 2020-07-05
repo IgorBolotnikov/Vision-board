@@ -1,9 +1,9 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import Menu from './mainMenu';
+import { MainMenu } from './main_menu';
 
 test('Render main menu', () => {
-  const { getByText } = render(<Menu />);
+  const { getByText } = render(<MainMenu />,);
 
   const menuHeader = getByText("Menu");
   const openToggler = getByText("→");

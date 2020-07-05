@@ -1,12 +1,19 @@
 import React, { useEffect, useState } from 'react';
 
-import './contextMenu.css';
+import './context_menu.css';
 
 
 const CONTEXT_MENU_ID = "context-menu";
 
+interface Props {
+  open: boolean,
+  top: number,
+  left: number,
+  options: [string, () => void][]
+}
 
-export default function ContextMenu(props) {
+
+export function ContextMenu(props: Props) {
   const width = 150;
 
   return (

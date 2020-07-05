@@ -5,7 +5,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  padding: 10px 0px;
+  padding: 10px 0;
   font-size: 30px;
   text-align: center;
   line-height: 1.0;
@@ -19,7 +19,7 @@
 
 .menu-open-toggler {
   background-color: var(--menu-background);
-  box-shadow: 0px 0px 10px grey;
+  box-shadow: 0 0 10px grey;
   position: fixed;
   top: 20px;
   left: 20px;
@@ -29,21 +29,20 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  margin: 0px;
+  margin: 0;
   display: inline-block;
 }
 
 .main-menu {
-  width: 0px;
+  width: 0;
   height: 100vh;
   overflow-y: scroll;
-  overflow-y: hidden;
   transition: all 0.2s;
   position: fixed;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   z-index: 1000;
-  box-shadow: 0px 0px 10px grey;
+  box-shadow: 0 0 10px grey;
   background-color: var(--menu-background);
 }
 
@@ -52,9 +51,8 @@
 }
 
 .menu-header {
-  margin: 0px;
+  margin: 0;
   padding: 30px 20px;
-  margin-bottom: 20px;
   border-bottom: 1px solid var(--separator-color);
   font-size: 30px;
   font-weight: 400;
@@ -63,8 +61,8 @@
 
 .menu-list {
   list-style: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 .menu-item {

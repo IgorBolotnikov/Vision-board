@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import './mainMenu.css'
+import './main_menu.css'
 
 
-export default function Menu(props) {
+export function MainMenu() {
   const [open, setOpen] = useState(false);
   const menuItems = ['Fonts', 'Preferences', 'Account'];
 
