@@ -1,0 +1,41 @@
+@import '../../colors';
+@import '../../constants';
+
+#context-menu {
+  z-index: 9999;
+  width: 150px;
+  position: fixed;
+  border-radius: 10px;
+  box-shadow: 0 0 10px grey;
+  background-color: colors(menu-background);
+  transform: scale(0);
+  transform-origin: top left;
+  overflow: hidden;
+
+  &.context-menu-open {
+    transform: scale(1);
+    transition: transform 0.2s;
+  }
+}
+
+#context-menu.context-menu-open {
+  transform: scale(1);
+  transition: transform 0.2s;
+}
+
+.context-menu {
+  &-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    &-item {
+      padding: 10px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: colors(menu-active-color);
+      }
+    }
+  }
+}

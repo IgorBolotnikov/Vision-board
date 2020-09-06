@@ -3,6 +3,8 @@
   "version": "0.0.4",
   "private": true,
   "dependencies": {
+    "@datorama/akita": "^5.2.3",
+    "@libreact/use-observable": "^1.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^10.2.1",
     "@testing-library/user-event": "^7.1.2",
@@ -12,9 +14,12 @@
     "@types/react-dom": "^16.9.8",
     "http-proxy": "^1.18.1",
     "minimist": "^1.2.5",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "rxjs": "^6.6.2",
+    "tslib": "^2.0.1",
     "typescript": "^3.9.5"
   },
   "scripts": {

@@ -1,0 +1,15 @@
+@import '../../colors';
+@import '../../constants';
+
+.card-container {
+	z-index: 100;
+	position: fixed;
+	background-color: colors(card-color);
+	cursor: move;
+}
+
+.card-hint {
+	color: colors(text-color);
+	margin: auto;
+	text-align: center;
+}

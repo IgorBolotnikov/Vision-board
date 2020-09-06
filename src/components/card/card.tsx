@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { ICard } from '../../interfaces.js';
-import { ContextMenu } from '../context_menu/context_menu.js';
-import './card.css';
+import { ICard } from '../../interfaces';
+
+import './card.scss';
 
 export const CARD_SIZE_LIMITS = {
   minWidth: 50,

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, DEFAULT_CARD_LOCATION, DEFAULT_CARD_SIZE } from './components/card/card';
-import { ContextMenu } from './components/context_menu/context_menu';
-import { MainMenu } from './components/main_menu/main_menu';
+import { ContextMenu } from './components/context_menu';
+import { MainMenu } from './components/main_menu';
 import { ContextMenuOptions, ICard } from './interfaces.js';
 
 function App() {

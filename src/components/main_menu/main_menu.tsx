@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-import './main_menu.css';
-
+import './main_menu.scss';
 
 export function MainMenu() {
   const [open, setOpen] = useState(false);

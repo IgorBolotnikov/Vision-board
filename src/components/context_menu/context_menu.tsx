@@ -1,7 +1,7 @@
 import React from 'react';
-import { ContextMenuOptions } from '../../interfaces.js';
+import { ContextMenuOptions } from '../../interfaces';
 
-import './context_menu.css';
+import './context_menu.scss';
 
 const CONTEXT_MENU_ID = 'context-menu';
 
